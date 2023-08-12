@@ -1,1 +1,4 @@
-GET http://{{host}}/welcome
+GET http://{{host}}/cats
+
+###
+GET http://start.spring.io

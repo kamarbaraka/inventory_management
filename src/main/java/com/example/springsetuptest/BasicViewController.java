@@ -3,7 +3,7 @@ package com.example.springsetuptest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+
 
 /**
  * a class representing the welcome view controller.

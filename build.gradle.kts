@@ -27,6 +27,18 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-web-services")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.1.2")
+
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    implementation("com.h2database:h2:2.2.220")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-rest
+    implementation("org.springframework.boot:spring-boot-starter-data-rest:3.1.2")
+    implementation("au.com.dius:pact-jvm-provider-junit:4.0.10")
+    implementation("au.com.dius:pact-jvm-provider-junit:4.0.10")
+
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     annotationProcessor("org.projectlombok:lombok")
